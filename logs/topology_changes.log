@@ -1,0 +1,105 @@
+
+=== Topology Detector Started ===
+
+[SWITCH UP] 1 ports=[1, 2, 3] (08:20:50)
+
+--- TOPOLOGY ---
+Switches: [1]
+Links: None
+----------------
+
+[SWITCH UP] 3 ports=[1, 2] (08:20:50)
+
+--- TOPOLOGY ---
+Switches: [1, 3]
+Links: None
+----------------
+
+[SWITCH UP] 2 ports=[1, 2, 3] (08:20:50)
+
+--- TOPOLOGY ---
+Switches: [1, 2, 3]
+Links: None
+----------------
+
+[LINK UP] 2 <--> 1 (08:20:50)
+
+--- TOPOLOGY ---
+Switches: [1, 2, 3]
+Link: 1 <--> 2
+Link: 2 <--> 1
+Link: 2 <--> 3
+Link: 3 <--> 2
+----------------
+
+[LINK UP] 2 <--> 3 (08:20:50)
+[LINK UP] 1 <--> 2 (08:20:50)
+[LINK UP] 3 <--> 2 (08:20:50)
+
+=== Topology Detector Started ===
+
+[SWITCH UP] 1 ports=[1, 2, 3] (08:25:20)
+
+--- TOPOLOGY ---
+Switches: [1]
+Links: None
+----------------
+
+[SWITCH UP] 3 ports=[1, 2] (08:25:20)
+
+--- TOPOLOGY ---
+Switches: [1, 3]
+Link: 1 <--> 2
+Link: 2 <--> 1
+Link: 2 <--> 3
+----------------
+
+[SWITCH UP] 2 ports=[1, 2, 3] (08:25:20)
+
+--- TOPOLOGY ---
+Switches: [1, 2, 3]
+Link: 1 <--> 2
+Link: 2 <--> 1
+Link: 2 <--> 3
+Link: 3 <--> 2
+----------------
+
+[LINK UP] 2 <--> 3 (08:25:20)
+[LINK UP] 1 <--> 2 (08:25:20)
+[LINK UP] 2 <--> 1 (08:25:20)
+[LINK UP] 3 <--> 2 (08:25:20)
+[PORT] sw=2 port=2 UP (08:28:32)
+[PORT] sw=2 port=2 DOWN (08:28:32)
+[PORT] sw=1 port=3 UP (08:28:32)
+[PORT] sw=1 port=3 DOWN (08:28:32)
+[LINK DOWN] 2 <--> 1 (08:28:32)
+
+--- TOPOLOGY ---
+Switches: [1, 2, 3]
+Link: 2 <--> 3
+Link: 3 <--> 2
+----------------
+
+[LINK DOWN] 1 <--> 2 (08:28:32)
+[PORT] sw=1 port=3 DOWN (08:33:06)
+[PORT] sw=1 port=3 UP (08:33:06)
+[PORT] sw=2 port=2 UP (08:33:06)
+[LINK UP] 2 <--> 1 (08:33:06)
+
+--- TOPOLOGY ---
+Switches: [1, 2, 3]
+Link: 2 <--> 1
+Link: 2 <--> 3
+Link: 3 <--> 2
+----------------
+
+[LINK UP] 1 <--> 2 (08:33:06)
+
+--- TOPOLOGY ---
+Switches: [1, 2, 3]
+Link: 1 <--> 2
+Link: 2 <--> 1
+Link: 2 <--> 3
+Link: 3 <--> 2
+----------------
+
