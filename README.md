@@ -30,8 +30,8 @@ sdn-topology-detector/
 
 ```
 h1 - s1 - s2 - s3 - h4
-h2 /       |
-          h3
+     |     |
+     h2    h3
 ```
 
 - 3 switches: s1, s2, s3
